@@ -39,7 +39,7 @@ h1,h2,h3{line-height:1.08;letter-spacing:-.02em}
 /* HERO */
 .hero{padding:96px var(--pad) 0}
 .hero-card{position:relative;border-radius:36px;overflow:hidden;min-height:min(82vh,760px);display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:30px;padding:56px;color:#fff;isolation:isolate;box-shadow:0 40px 90px rgba(14,14,16,.18)}
-.hero-bg{position:absolute;inset:0;z-index:-3;background:url('img/benin/moto-cotonou.jpg') center 58%/cover no-repeat;animation:kb 22s ease-out forwards}
+.hero-bg{position:absolute;inset:0;z-index:-3;background:url('img/crop/mercedes-wide.jpg') center 60%/cover no-repeat;animation:kb 22s ease-out forwards}
 @keyframes kb{from{transform:scale(1)}to{transform:scale(1.08)}}
 .hero-shade{position:absolute;inset:0;z-index:-2;background:linear-gradient(90deg,rgba(10,10,14,.72) 0%,rgba(10,10,14,.4) 55%,rgba(10,10,14,.15) 100%),linear-gradient(0deg,rgba(10,10,14,.35),transparent 40%)}
 .pill-tag{display:inline-block;padding:8px 16px;border-radius:999px;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.3);backdrop-filter:blur(8px);font-size:12.5px;font-weight:600;letter-spacing:.04em}
@@ -92,7 +92,7 @@ h1,h2,h3{line-height:1.08;letter-spacing:-.02em}
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
 .vcard{position:relative;background:#fff;border:1px solid var(--line);border-radius:24px;overflow:hidden;transition:transform .3s,box-shadow .3s,opacity .5s}
 .vcard:hover{transform:translateY(-6px);box-shadow:0 26px 60px rgba(14,14,16,.14)}
-.vcard img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.vcard img{width:100%;aspect-ratio:3/2;object-fit:cover}
 .vcard>div{padding:18px 20px 4px}.vcard b{display:block;font-size:17px}.vcard span{font-size:13px;color:var(--soft)}
 .vcard em{display:block;padding:6px 20px 20px;font-style:normal;font-weight:800;font-size:15px}
 .vcard.hide{display:none}
